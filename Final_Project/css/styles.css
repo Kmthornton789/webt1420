@@ -1,29 +1,154 @@
 body {
-    background-color: #DBE5DC;
+    background-color: #DBE5DC ;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+h1, 
+h2, 
+h3 {
+    color: black;
+    text-align: center;
 }
 
 video, audio {
     display: block;
-    width: 45%;
+    width: 55%;
     margin: 15px auto;
 }
 iframe {
     display: block;
     width: 45%;
-    height: 400px;
+    height: 350px;
     margin: 15px auto;
 }
-img {
-    display: block;
-    margin: 0 auto;
-    width: 35%;
+
+nav {
+    background-color: #C79864;
+    padding: 2px 0;
+    text-align: center;
 }
 
-header {
-    padding: 40px 0;
-    border-bottom: 5px solid #A99465;
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 1px solid;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color:#DEA1BA;
+    color:black;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+nav li a:hover {
+    background-color:indigo;
+    color:#1D545F;
+    border-color: black;
 }
 
 main {
     padding: 20px;
+}
+
+footer {
+    background-color:#709690;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.button {
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #DBE5DC;
+}
+
+@media (min-width: 568px) {
+    body {
+        background-color: #A87B66;
+        
+    }
+
+    p {
+     font-size: 175%
+    }
+    img {
+        display: block;
+    margin: 0 auto;
+    width: 75%;
+    }
+
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        background-color: 0;
+        width: 150px;
+        margin: 0 5px;
+    }
+
+    main {
+        display: block;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5 {
+        font-size: 175%;
+    }
+}
+
+@media (min-width: 640px) {
+    body {
+        background-color: #A87B66;
+        
+    }
+
+    p {
+     font-size: 175%
+    }
+    
+    img {
+        display: block;
+    margin: 0 auto;
+    width: 50%;
+    }
+
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        background-color: 0;
+        width: 150px;
+        margin: 0 5px;
+    }
+
+    main {
+        display: block;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5 {
+        font-size: 175%;
+    }
 }
