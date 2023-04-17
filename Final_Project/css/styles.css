@@ -1,5 +1,6 @@
 body {
-    background-color: #DBE5DC ;
+    background-color: #DBE5DC;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -12,6 +13,20 @@ h2,
 h3 {
     color: black;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color:#709690;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
 }
 
 video, audio {
@@ -117,7 +132,7 @@ footer {
     }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1024px) {
     body {
         background-color: #A87B66;
         
@@ -130,7 +145,7 @@ footer {
     img {
         display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 45%;
     }
 
     nav li {
