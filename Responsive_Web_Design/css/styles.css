@@ -141,9 +141,9 @@ tr, td {
     }
 } 
 
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
     #container {
-        width: 65%;
+        width: 45%;
         margin: 20px auto;
     }
 
