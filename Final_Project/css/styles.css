@@ -3,6 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#container {
+    background-color:white
+    padding 20px;
+    border: 4px solid #DEA1BA;
+    border-radius: 20px;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -36,8 +43,7 @@ video, audio {
 }
 iframe {
     display: block;
-    width: 45%;
-    height: 350px;
+    width: 100%;
     margin: 15px auto;
 }
 
@@ -138,8 +144,12 @@ footer {
         
     }
 
+    #container {
+        width: 74%;
+        margin: 20px auto;
+    }
     p {
-     font-size: 175%
+     font-size: 175%;
     }
     
     img {
